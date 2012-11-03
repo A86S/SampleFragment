@@ -44,6 +44,7 @@ public class DemoFragment extends Fragment {
 				transaction.addToBackStack(null);
 				
 				transaction.commit();
+				
 			}
 		});
 		return view;
